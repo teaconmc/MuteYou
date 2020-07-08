@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+modId="muteyou"
+version="${file.jarVersion}"
+displayName="Mute You"
+
+# We will come back later.
+credits=""
+
+authors=["teacon","jihuayu"]
+
+description="Mute anybody."
+
+[[dependencies.nickname]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15, 1.15.2]"
+    ordering="NONE"
+    side="BOTH"
